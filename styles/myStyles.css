@@ -1,3 +1,33 @@
+.navbar-brand>img {
+  height: 100%;
+}
+
+.navbar-default {
+  height: 25px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
 .section {
   width: 100%;
   height: 100px;
@@ -8,7 +38,7 @@
 }
 
 .section2 {
-  background:#BBDEFB;
+  background: #BBDEFB;
 }
 
 .section3 {
@@ -17,4 +47,11 @@
 
 .section4 {
   background: #757575;
+}
+
+.carousel-inner img {
+  -webkit-filter: greyscale(90%);
+  filter: grayscale(90%);
+  width: 100%;
+  margin: auto;
 }
